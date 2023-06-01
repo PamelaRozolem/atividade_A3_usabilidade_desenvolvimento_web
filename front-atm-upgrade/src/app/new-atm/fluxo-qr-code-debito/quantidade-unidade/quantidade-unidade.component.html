@@ -1,0 +1,38 @@
+<div class="color-background">
+  <!--HEADER-->
+  <app-header-title>
+    <div subTitle class="text-white mb-5">
+      <h2>Lista dos bilhetes selecionados:</h2>
+    </div>
+  </app-header-title>
+
+  <!--CARD CENTRO-->
+  <div class="d-flex justify-content-center card-center container">
+    <div class="row">
+      <div class="col text-white p-colunm">Unidades</div>
+      <div class="col text-white p-colunm">Total Unidades</div>
+      <div class="w-100"></div>
+      <div class="col">
+        <select class="custom-select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="col">
+        <input type="text" aria-label="Total Unidades" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <!--BUTTON FOOTER-->
+  <app-button-footer>
+    <button btnEsquerda type="button" class="btn btn-primary btn-lg color-btn">Voltar</button>
+    <button btnDireita type="button" class="btn btn-primary btn-lg color-btn">Confirmar</button>
+  </app-button-footer>
+
+  <!--FOOTER-->
+  <app-footer></app-footer>
+</div>

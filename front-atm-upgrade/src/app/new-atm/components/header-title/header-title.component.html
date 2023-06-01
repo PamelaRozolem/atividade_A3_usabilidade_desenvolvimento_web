@@ -1,15 +1,7 @@
 <div class="p-5">
-  <div class="text-white mb-5">
-    <h1>{{textTitle}}</h1>
-  </div>
+  <ng-content select="[textTitle]"></ng-content>
 
-  <div class="d-flex justify-content-center text-white margin-r">
-    <h2>{{subTitle}}</h2>
-  </div>
+  <ng-content select="[subTitle]"></ng-content>
 
-  <div class="d-flex justify-content-center text-white">
-    <p>{{fraseHeader}}</p>
-  </div>
+  <ng-content select="[fraseHeader]"></ng-content>
 </div>
-
-
