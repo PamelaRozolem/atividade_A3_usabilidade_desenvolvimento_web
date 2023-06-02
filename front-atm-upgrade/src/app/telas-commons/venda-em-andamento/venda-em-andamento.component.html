@@ -11,10 +11,16 @@
   </app-header-title>
 
   <!--CARD CENTRO-->
-  <div class="d-flex justify-content-center card-center">
-    <img src="assets/images/loading.png" alt="Ilustração"  class="img-width pt-4 sm-hidden" />
-    <p class="text-white">Aguarde o processamento da informação</p>
-  </div>
+  <a class="d-flex justify-content-center" (click)="goTo()">
+    <div class="d-flex flex-column align-items-center">
+      <div class="p-2 bd-highlight">
+        <img src="assets/images/loading.png" alt="Ilustração"  class="img-width pt-4 sm-hidden" />
+      </div>
+      <div class="p-2 bd-highlight">
+        <p class="text-white">Aguarde o processamento da informação</p>
+      </div>
+    </div>
+  </a>
 
   <!--FOOTER-->
   <app-footer></app-footer>

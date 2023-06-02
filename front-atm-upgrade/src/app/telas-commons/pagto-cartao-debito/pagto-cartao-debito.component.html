@@ -11,14 +11,20 @@
   </app-header-title>
 
   <!--CARD CENTRO-->
-  <div class="d-flex justify-content-center card-center">
-    <img src="assets/images/insira-cartao.png" alt="Ilustração"  class="img-width pt-4 sm-hidden" />
-    <p class="text-white">Cancelamento em 60 segudos</p>
-  </div>
+  <a class="d-flex justify-content-center" (click)="goTo()">
+    <div class="d-flex flex-column align-items-center">
+      <div class="p-2 bd-highlight">
+        <img src="assets/images/insira-cartao.png" alt="Ilustração" class="img-width pt-4 sm-hidden"/>
+      </div>
+      <div class="p-2 bd-highlight">
+        <p class="text-white">Cancelamento em 60 segudos</p>
+      </div>
+    </div>
+  </a>
 
   <!--BUTTON FOOTER-->
   <app-button-footer>
-    <button btnDireita type="button" class="btn btn-primary btn-lg color-btn">Confirmar</button>
+    <button btnDireita type="button" (click)="back()" class="btn btn-primary btn-lg custom-btn">Cancelar</button>
   </app-button-footer>
 
   <!--FOOTER-->

@@ -11,10 +11,16 @@
   </app-header-title>
 
   <!--CARD CENTRO-->
-  <div class="d-flex justify-content-center card-center">
-    <input type="text" aria-label="Senha" class="form-control">
-    <p class="text-white">Cancelamento em 60 segudos</p>
-  </div>
+  <a class="d-flex justify-content-center" (click)="goTo()">
+    <div class="d-flex flex-column align-items-center">
+      <div class="p-2 bd-highlight">
+        <input type="text" placeholder="Senha" aria-label="Senha" class="form-control">
+      </div>
+      <div class="p-2 bd-highlight">
+        <p class="text-white">Cancelamento em 60 segudos</p>
+      </div>
+    </div>
+  </a>
 
   <!--FOOTER-->
   <app-footer></app-footer>
