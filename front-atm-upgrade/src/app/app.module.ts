@@ -23,6 +23,10 @@ import { HomeComponent } from './telas-commons/home/home.component';
 import { InsiraCartaoComponent } from './telas-commons/insira-cartao/insira-cartao.component';
 import { SelecioneTipoRecargaComponent } from './telas-commons/selecione-tipo-recarga/selecione-tipo-recarga.component';
 import { SelecionarValorTpRecargaComponent } from './telas-commons/selecionar-valor-tp-recarga/selecionar-valor-tp-recarga.component';
+import { SelecionarFormaPagamentoComponent } from './telas-commons/selecionar-forma-pagamento/selecionar-forma-pagamento.component';
+import { PagtoDinheiroComponent } from './telas-commons/pagto-dinheiro/pagto-dinheiro.component';
+import { ValorDinheiroAceitoComponent } from './fluxo-cartao-top-dinheiro/valor-dinheiro-aceito/valor-dinheiro-aceito.component';
+import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realizada-sucesso/recarga-realizada-sucesso.component';
 
 
 
@@ -45,7 +49,11 @@ import { SelecionarValorTpRecargaComponent } from './telas-commons/selecionar-va
     HomeComponent,
     InsiraCartaoComponent,
     SelecioneTipoRecargaComponent,
-    SelecionarValorTpRecargaComponent
+    SelecionarValorTpRecargaComponent,
+    SelecionarFormaPagamentoComponent,
+    PagtoDinheiroComponent,
+    ValorDinheiroAceitoComponent,
+    RecargaRealizadaSucessoComponent
    ],
   imports: [
     BrowserModule,

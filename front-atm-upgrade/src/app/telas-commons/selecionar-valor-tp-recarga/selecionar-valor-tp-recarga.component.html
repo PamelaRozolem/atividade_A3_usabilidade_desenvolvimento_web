@@ -1,3 +1,54 @@
-<p>
-  selecionar-valor-tp-recarga works!
-</p>
+<div class="color-background">
+  <!--HEADER-->
+  <app-header-title>
+    <div textTitle class="text-white mb-5">
+      <h1>Recarga Selecionada</h1>
+    </div>
+
+    <div fraseHeader class="d-flex justify-content-center text-white">
+      <p class="p-custom">Selecione o valor desejado</p>
+    </div>
+  </app-header-title>
+
+  <!--CARD CENTRO-->
+  <div class="d-flex justify-content-center">
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 2,00</label>
+    </a>
+
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 5,00</label>
+    </a>
+
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 10,00</label>
+    </a>
+
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 20,00</label>
+    </a>
+
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 30,00</label>
+    </a>
+
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">R$ 50,00</label>
+    </a>
+  </div>
+
+  <div class="d-flex justify-content-center mt-5">
+    <a routerLink="/selecionar-forma-pagamento" class="d-flex align-items-center custom-card-center">
+      <label class="p-3 custom-label text-white">Outro Valor</label>
+    </a>
+  </div>
+
+
+  <!--BUTTON FOOTER-->
+  <app-button-footer>
+    <button btnEsquerda (click)="back()" type="button" class="btn btn-primary btn-lg custom-btn">Voltar</button>
+  </app-button-footer>
+
+  <!--FOOTER-->
+  <app-footer></app-footer>
+</div>
