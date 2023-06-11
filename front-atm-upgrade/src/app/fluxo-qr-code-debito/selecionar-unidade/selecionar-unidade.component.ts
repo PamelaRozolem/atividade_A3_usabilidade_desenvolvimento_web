@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ActivatedRoute } from "@angular/router";
 @Component({
   selector: 'app-selecionar-unidade',
   templateUrl: './selecionar-unidade.component.html',
   styleUrls: ['./selecionar-unidade.component.scss']
 })
 export class SelecionarUnidadeComponent implements OnInit {
+  idRouter: string;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {
   }
@@ -16,8 +18,8 @@ export class SelecionarUnidadeComponent implements OnInit {
     this.router.navigate(['/quantidade-unidade']);
   }
 
-  back(){
-    this.router.navigate(['/home']);
+  backHome(){
+    window.history.back();
   }
 
 }

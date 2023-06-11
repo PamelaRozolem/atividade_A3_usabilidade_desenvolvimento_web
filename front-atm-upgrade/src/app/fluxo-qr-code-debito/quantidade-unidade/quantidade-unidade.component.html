@@ -13,14 +13,13 @@
       <div class="col text-white p-colunm">Total Unidades</div>
       <div class="w-100"></div>
       <div class="col">
-        <select class="custom-select select-custom">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+        <select class="custom-select select-custom" [(ngModel)]="unidade">
+          <option *ngFor="let item of qtdadeUnidade" [ngValue]="item.unidade" (ngModelChange)="selectTipoUnidade($event)">
+            {{item.unidade}}
+          </option>
         </select>
       </div>
+
       <div class="col">
         <input type="text" aria-label="Total Unidades" class="form-control">
       </div>

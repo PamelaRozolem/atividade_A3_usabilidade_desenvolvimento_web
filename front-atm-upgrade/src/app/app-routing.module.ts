@@ -20,7 +20,7 @@ import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realiz
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: 'home/:idBilheteUnico',
     component: HomeComponent
   },
   {
@@ -90,7 +90,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', enableTracing: true})],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', enableTracing: false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

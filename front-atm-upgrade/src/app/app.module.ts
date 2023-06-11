@@ -27,7 +27,7 @@ import { SelecionarFormaPagamentoComponent } from './telas-commons/selecionar-fo
 import { PagtoDinheiroComponent } from './telas-commons/pagto-dinheiro/pagto-dinheiro.component';
 import { ValorDinheiroAceitoComponent } from './fluxo-cartao-top-dinheiro/valor-dinheiro-aceito/valor-dinheiro-aceito.component';
 import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realizada-sucesso/recarga-realizada-sucesso.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -60,7 +60,8 @@ import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realiz
     AppRoutingModule,
     BrowserAnimationsModule,
     CommonModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   exports: [BrowserAnimationsModule],

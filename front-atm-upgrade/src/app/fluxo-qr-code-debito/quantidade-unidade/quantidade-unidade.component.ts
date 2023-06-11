@@ -6,10 +6,22 @@ import { Router } from '@angular/router';
   styleUrls: ['./quantidade-unidade.component.scss']
 })
 export class QuantidadeUnidadeComponent implements OnInit {
+  qtdadeUnidade = [
+    {unidade: 1},
+    {unidade: 2},
+    {unidade: 3},
+    {unidade: 4},
+    {unidade: 5}
+  ];
+  unidade;
 
   constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  selectTipoUnidade(data) {
+    console.log(data);
   }
 
   goTo(){

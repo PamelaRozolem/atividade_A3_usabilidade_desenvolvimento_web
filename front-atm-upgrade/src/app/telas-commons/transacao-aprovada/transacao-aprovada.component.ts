@@ -13,8 +13,8 @@ export class TransacaoAprovadaComponent implements OnInit {
   ngOnInit() {
   }
 
-  goTo(){
-    this.router.navigate(['/requisitando-qr-code']);
-  }
+  // goTo(){
+  //   this.router.navigate(['/requisitando-qr-code']);
+  // }
 
 }
