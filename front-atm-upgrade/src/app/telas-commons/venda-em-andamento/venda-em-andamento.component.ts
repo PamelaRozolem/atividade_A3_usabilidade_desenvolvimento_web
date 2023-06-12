@@ -12,8 +12,4 @@ export class VendaEmAndamentoComponent implements OnInit {
   ngOnInit() {
   }
 
-  goTo(){
-    this.router.navigate(['/transacao-aprovada']);
-  }
-
 }

@@ -1,0 +1,37 @@
+<div class="color-background">
+  <!--HEADER-->
+  <app-header-title>
+    <div subTitle class="text-white mb-5">
+      <h2>Selecionados: Unitário</h2>
+    </div>
+  </app-header-title>
+
+  <!--CARD CENTRO-->
+  <div class="d-flex justify-content-center card-center container">
+    <div class="row">
+      <div class="col text-white p-colunm">Unidades</div>
+      <div class="col text-white p-colunm">Total Unidades</div>
+      <div class="w-100"></div>
+      <div class="col">
+        <select class="custom-select select-custom" [(ngModel)]="unidade">
+          <option *ngFor="let item of qtdadeUnidade" [ngValue]="item.unidade" (ngModelChange)="selectTipoUnidade($event)">
+            {{item.unidade}}
+          </option>
+        </select>
+      </div>
+
+      <div class="col">
+        <input type="text" aria-label="Total Unidades" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <!--BUTTON FOOTER-->
+  <app-button-footer>
+    <button btnEsquerda type="button" (click)="back()" class="btn btn-primary btn-lg custom-btn">Voltar</button>
+    <button btnDireita type="button" (click)="goTo()" class="btn btn-primary btn-lg custom-btn">Confirmar</button>
+  </app-button-footer>
+
+  <!--FOOTER-->
+  <app-footer></app-footer>
+</div>

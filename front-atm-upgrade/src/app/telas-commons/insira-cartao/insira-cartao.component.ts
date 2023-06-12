@@ -13,8 +13,4 @@ export class InsiraCartaoComponent implements OnInit {
   ngOnInit() {
   }
 
-  goTo(){
-    this.router.navigate(['/selecione-tipo-recarga']);
-  }
-
 }

@@ -15,7 +15,6 @@ import { QuantidadeUnidadeComponent } from './fluxo-qr-code-debito/quantidade-un
 import { PagtoCartaoDebitoComponent } from './telas-commons/pagto-cartao-debito/pagto-cartao-debito.component';
 import { DigiteSenhaDebitoComponent } from './telas-commons/digite-senha-debito/digite-senha-debito.component';
 import { VendaEmAndamentoComponent } from './telas-commons/venda-em-andamento/venda-em-andamento.component';
-import { TransacaoAprovadaComponent } from './telas-commons/transacao-aprovada/transacao-aprovada.component';
 import { RequisitandoQrCodeComponent } from './fluxo-qr-code-debito/requisitando-dr-code/requisitando-qr-code.component';
 import { RetireBilheteComponent } from './fluxo-qr-code-debito/retire-bilhete/retire-bilhete.component';
 import { AgradecimentoComponent } from './telas-commons/agradecimento/agradecimento.component';
@@ -28,6 +27,16 @@ import { PagtoDinheiroComponent } from './telas-commons/pagto-dinheiro/pagto-din
 import { ValorDinheiroAceitoComponent } from './fluxo-cartao-top-dinheiro/valor-dinheiro-aceito/valor-dinheiro-aceito.component';
 import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realizada-sucesso/recarga-realizada-sucesso.component';
 import { FormsModule } from '@angular/forms';
+import { TransacaoAprovadaQrCodeComponent } from './fluxo-qr-code-debito/transacao-aprovada-qr-code/transacao-aprovada-qr-code.component';
+import { TransacaoAprovadaTopDinheiroComponent } from './fluxo-cartao-top-dinheiro/transacao-aprovada-top-dinheiro/transacao-aprovada-top-dinheiro.component';
+import { DesejaComprarTopDebitoComponent } from './fluxo-cartao-top-debito/deseja-comprar-top-debito/deseja-comprar-top-debito.component';
+import { PagtoCartaoTopDebitoComponent } from './fluxo-cartao-top-debito/pagto-cartao-top-debito/pagto-cartao-top-debito.component';
+import { QuantidadeUnidadeTopDebito } from './fluxo-cartao-top-debito/quantidade-unidade-top-debito/quantidade-unidade-top-debito.component';
+import { TransacaoAprovadaTopDebitoComponent } from './fluxo-cartao-top-debito/transacao-aprovada-top-debito/transacao-aprovada-top-debito.component';
+import { RecargaSucessoTopDebitoComponent } from './fluxo-cartao-top-debito/recarga-sucesso-top-debito/recarga-sucesso-top-debito.component';
+import { SelecionarFormaPagamentoBilheteComponent } from './fluxo-bilhete-debito/selecionar-forma-pagamento-bilhete/selecionar-forma-pagamento-bilhete.component';
+import { SelecioneTipoRecargaBilheteComponent } from './fluxo-bilhete-debito/selecione-tipo-recarga-bilhete/selecione-tipo-recarga-bilhete.component';
+import { InsiraCartaoBilheteComponent } from './fluxo-bilhete-debito/insira-cartao-bilhete/insira-cartao-bilhete.component';
 
 
 @NgModule({
@@ -42,7 +51,7 @@ import { FormsModule } from '@angular/forms';
     PagtoCartaoDebitoComponent,
     DigiteSenhaDebitoComponent,
     VendaEmAndamentoComponent,
-    TransacaoAprovadaComponent,
+    TransacaoAprovadaQrCodeComponent,
     RequisitandoQrCodeComponent,
     RetireBilheteComponent,
     AgradecimentoComponent,
@@ -53,7 +62,16 @@ import { FormsModule } from '@angular/forms';
     SelecionarFormaPagamentoComponent,
     PagtoDinheiroComponent,
     ValorDinheiroAceitoComponent,
-    RecargaRealizadaSucessoComponent
+    RecargaRealizadaSucessoComponent,
+    TransacaoAprovadaTopDinheiroComponent,
+    DesejaComprarTopDebitoComponent,
+    PagtoCartaoTopDebitoComponent,
+    QuantidadeUnidadeTopDebito,
+    TransacaoAprovadaTopDebitoComponent,
+    RecargaSucessoTopDebitoComponent,
+    SelecionarFormaPagamentoBilheteComponent,
+    SelecioneTipoRecargaBilheteComponent,
+    InsiraCartaoBilheteComponent
    ],
   imports: [
     BrowserModule,

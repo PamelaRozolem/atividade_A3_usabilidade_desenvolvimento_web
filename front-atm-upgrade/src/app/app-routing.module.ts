@@ -5,7 +5,6 @@ import { QuantidadeUnidadeComponent } from './fluxo-qr-code-debito/quantidade-un
 import { PagtoCartaoDebitoComponent } from './telas-commons/pagto-cartao-debito/pagto-cartao-debito.component';
 import { DigiteSenhaDebitoComponent } from './telas-commons/digite-senha-debito/digite-senha-debito.component';
 import { VendaEmAndamentoComponent } from './telas-commons/venda-em-andamento/venda-em-andamento.component';
-import { TransacaoAprovadaComponent } from './telas-commons/transacao-aprovada/transacao-aprovada.component';
 import { RequisitandoQrCodeComponent } from './fluxo-qr-code-debito/requisitando-dr-code/requisitando-qr-code.component';
 import { RetireBilheteComponent } from './fluxo-qr-code-debito/retire-bilhete/retire-bilhete.component';
 import { AgradecimentoComponent } from './telas-commons/agradecimento/agradecimento.component';
@@ -17,6 +16,16 @@ import { SelecionarFormaPagamentoComponent } from './telas-commons/selecionar-fo
 import { PagtoDinheiroComponent } from './telas-commons/pagto-dinheiro/pagto-dinheiro.component';
 import { ValorDinheiroAceitoComponent } from './fluxo-cartao-top-dinheiro/valor-dinheiro-aceito/valor-dinheiro-aceito.component';
 import { RecargaRealizadaSucessoComponent } from './telas-commons/recarga-realizada-sucesso/recarga-realizada-sucesso.component';
+import { TransacaoAprovadaQrCodeComponent } from './fluxo-qr-code-debito/transacao-aprovada-qr-code/transacao-aprovada-qr-code.component';
+import { TransacaoAprovadaTopDinheiroComponent } from './fluxo-cartao-top-dinheiro/transacao-aprovada-top-dinheiro/transacao-aprovada-top-dinheiro.component';
+import { DesejaComprarTopDebitoComponent } from './fluxo-cartao-top-debito/deseja-comprar-top-debito/deseja-comprar-top-debito.component';
+import { PagtoCartaoTopDebitoComponent } from './fluxo-cartao-top-debito/pagto-cartao-top-debito/pagto-cartao-top-debito.component';
+import { QuantidadeUnidadeTopDebito } from './fluxo-cartao-top-debito/quantidade-unidade-top-debito/quantidade-unidade-top-debito.component';
+import { TransacaoAprovadaTopDebitoComponent } from './fluxo-cartao-top-debito/transacao-aprovada-top-debito/transacao-aprovada-top-debito.component';
+import { RecargaSucessoTopDebitoComponent } from './fluxo-cartao-top-debito/recarga-sucesso-top-debito/recarga-sucesso-top-debito.component';
+import { SelecionarFormaPagamentoBilheteComponent } from './fluxo-bilhete-debito/selecionar-forma-pagamento-bilhete/selecionar-forma-pagamento-bilhete.component';
+import { SelecioneTipoRecargaBilheteComponent } from './fluxo-bilhete-debito/selecione-tipo-recarga-bilhete/selecione-tipo-recarga-bilhete.component';
+import { InsiraCartaoBilheteComponent } from './fluxo-bilhete-debito/insira-cartao-bilhete/insira-cartao-bilhete.component';
 
 const routes: Routes = [
   {
@@ -44,16 +53,44 @@ const routes: Routes = [
     component: VendaEmAndamentoComponent
   },
   {
-    path: 'transacao-aprovada',
-    component: TransacaoAprovadaComponent
+    path: 'transacao-aprovada-qr-code/qrcode',
+    component: TransacaoAprovadaQrCodeComponent
+  },
+  {
+    path: 'transacao-aprovada-qr-code/dinheiro',
+    component: TransacaoAprovadaTopDinheiroComponent
+  },
+  {
+    path: 'transacao-aprovada-qr-code/debito',
+    component: TransacaoAprovadaTopDebitoComponent
+  },
+  {
+    path: 'deseja-comprar-top-debito',
+    component: DesejaComprarTopDebitoComponent
+  },
+  {
+    path: 'recarga-sucesso-top-debito',
+    component: RecargaSucessoTopDebitoComponent
+  },
+  {
+    path: 'pagamento-cartao-top-debito',
+    component: PagtoCartaoTopDebitoComponent
   },
   {
     path: 'requisitando-qr-code',
     component: RequisitandoQrCodeComponent
   },
   {
+    path: 'quantidade-unidade-top-debito',
+    component: QuantidadeUnidadeTopDebito
+  },
+  {
     path: 'retire-bilhete',
     component: RetireBilheteComponent
+  },
+  {
+    path: 'transacao-aprovada-top-debito',
+    component: TransacaoAprovadaTopDebitoComponent
   },
   {
     path: 'agradecimento',
@@ -64,8 +101,16 @@ const routes: Routes = [
     component: InsiraCartaoComponent
   },
   {
+    path: 'insira-cartao-bilhete',
+    component: InsiraCartaoBilheteComponent
+  },
+  {
     path: 'selecione-tipo-recarga',
     component: SelecioneTipoRecargaComponent
+  },
+  {
+    path: 'selecione-tipo-recarga-bilhete',
+    component: SelecioneTipoRecargaBilheteComponent
   },
   {
     path: 'selecionar-valor-tp-recarga',
@@ -74,6 +119,10 @@ const routes: Routes = [
   {
     path: 'selecionar-forma-pagamento',
     component: SelecionarFormaPagamentoComponent
+  },
+  {
+    path: 'selecionar-forma-pagamento-bilhete',
+    component: SelecionarFormaPagamentoBilheteComponent
   },
   {
     path: 'pagto-dinheiro',

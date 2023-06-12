@@ -14,7 +14,7 @@ export class RecargaRealizadaSucessoComponent implements OnInit {
   }
 
   goTo(){
-    this.router.navigate(['/transacao-aprovada']);
+    this.router.navigate(['transacao-aprovada-qr-code/dinheiro']);
   }
 
 }
