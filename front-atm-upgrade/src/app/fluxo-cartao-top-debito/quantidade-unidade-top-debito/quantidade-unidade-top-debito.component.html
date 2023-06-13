@@ -14,7 +14,8 @@
       <div class="w-100"></div>
       <div class="col">
         <select class="custom-select select-custom" [(ngModel)]="unidade">
-          <option *ngFor="let item of qtdadeUnidade" [ngValue]="item.unidade" (ngModelChange)="selectTipoUnidade($event)">
+          <option *ngFor="let item of qtdadeUnidade" [ngValue]="item.unidade"
+            (ngModelChange)="selectTipoUnidade($event)">
             {{item.unidade}}
           </option>
         </select>
