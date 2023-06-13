@@ -13,10 +13,12 @@ a {
   width: 200px;
 }
 
-.card-center {
-  background-color: #ffffff;
-  border-radius: 10px;
-  color: #000000;
+.box-width{
+   width: 400px;
+}
+
+.ilustracao-70{
+  width: 70px;
 }
 
 .img-width {
@@ -26,4 +28,14 @@ a {
 .p-card-center {
   font-weight: bold;
   font-size: 23px;
+}
+
+.ilustracao{
+  width: 50px;
+  height: 50px;
+}
+
+.box-button{
+  position: fixed;
+  bottom: 110px;
 }

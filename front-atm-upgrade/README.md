@@ -1,27 +1,50 @@
-# AtmUpgrade
+# Título do Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.7.
 
-## Development server
+![Capa do Projeto](https://picsum.photos/850/280)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Sobre o Projeto
 
-## Code scaffolding
+Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h4 align="center"> 
+	🚧  Em desenvolvimento . . .
+</h4>
 
-## Build
+# Índice/Sumário
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* [Sobre](#sobre-o-projeto)
+* [Sumário](#índice/sumário)
+* [Requisitos Funcionais](#requisitos-funcionais)
+* [Tecnologias Usadas](#tecnologias-usadas)
+* [Contribuição](#contribuição)
+* [Autores](#autores)
+* [Licença](#licença)
+* [Agradecimentos](#agradecimentos)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Requisitos Funcionais 
 
-## Running end-to-end tests
+- [x] **Cadastrar Usuário**
+- [x] **Fazer Login**
+- [ ] Matricular em Curso
+- [ ] Cancelar Matricula
+- [ ] Visualizar Notas
+- [ ] Visualizar e Atualizar Informações do Estudante
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Tecnologias Usadas
 
-## Further help
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Contribuição
+
+Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o nosso código de conduta e o processo de envio de solicitações *pull* (*Pull Request*) para nós.
+
+# Autores
+
+[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+
+# Licença
+
+Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.

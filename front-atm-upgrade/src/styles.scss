@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
-@import '../node_modules/bootstrap/dist/css/bootstrap.css'
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+html, body {
+  height: 100% !important;
+}
+
+
+.main-container {
+  height: calc(100% - 110px);
+}
+
+.message-client-customer{
+  position: fixed;
+  bottom: 110px;
+}
+
+.box-button{
+  position: fixed;
+  bottom: 110px;
+}

@@ -1,4 +1,4 @@
-<div class="color-background">
+<div class="color-background main-container d-flex flex-column">
   <!--HEADER-->
   <app-header-title>
     <div subTitle class="text-white mb-5">
@@ -8,22 +8,22 @@
 
   <!--CARD CENTRO-->
   <a class="d-flex justify-content-center card-center" (click)="goTo()">
-    <div class="d-flex flex-column">
-      <div class="d-flex justify-content-center">
-        <img src="assets/images/qrCode.png" alt="Ilustração"  class="img-width sm-hidden" />
+
+    <div class="box-width d-flex bg-white flex-row justify-content-start rounded-4 p-2">
+      <div class="d-flex flex-column align-items-center">
+          <img src="assets/images/qrCode.png" alt="Ilustração"  class="sm-hidden ilustracao-70" />
+          <img src="assets/images/logo.png" alt="Ilustração"  class="sm-hidden ilustracao" />
       </div>
-      <div class="d-flex justify-content-center">
-        <img src="assets/images/logo.png" alt="Ilustração"  class="img-width sm-hidden" />
+      <div class="d-flex align-items-center justify-content-center m-3 w-100">
+        <p class="p-card-center text-dark">Unitário</p>
       </div>
+
     </div>
 
-    <div class="d-flex align-items-center m-3">
-      <p class="p-card-center">Unitário</p>
-    </div>
   </a>
 
   <!--BUTTON FOOTER-->
-  <app-button-footer>
+  <app-button-footer class="box-button">
     <button btnEsquerda type="button" (click)="backHome()" class="btn btn-primary btn-lg custom-btn">Cancelar</button>
   </app-button-footer>
 
