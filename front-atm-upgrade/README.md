@@ -1,15 +1,11 @@
-# Título do Projeto
+# Proposta de Redesign de UI de ATM Autopass
 
 
-![Capa do Projeto](https://picsum.photos/850/280)
+<!-- ![Capa do Projeto](https://picsum.photos/850/280) -->
 
 # Sobre o Projeto
 
-Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
-
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
+Este projeto aborda uma proposta de redesign de interface gráfica de uma ATM (Máquina de Autoatendimento) para a empresa Autopass.
 
 # Índice/Sumário
 
@@ -20,17 +16,15 @@ Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
 * [Contribuição](#contribuição)
 * [Autores](#autores)
 * [Licença](#licença)
-* [Agradecimentos](#agradecimentos)
 
 
 # Requisitos Funcionais 
 
-- [x] **Cadastrar Usuário**
-- [x] **Fazer Login**
-- [ ] Matricular em Curso
-- [ ] Cancelar Matricula
-- [ ] Visualizar Notas
-- [ ] Visualizar e Atualizar Informações do Estudante
+- [x] **Compra de passagem em QRCode com pagamento via cartão de débito**
+- [x] **Recarga de Cartão TOP com pagamento em dinheiro**
+- [x] **Recarga de Cartão TOP com pagamento via cartão de débito**
+- [x] **Recarga de Bilhete Único com pagamento em dinheiro**
+- [x] **Recarga de Bilhete Único com pagamento via cartão de débito**
 
 # Tecnologias Usadas
 
@@ -43,12 +37,12 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-Matheus Costa Silva - 8222248063
-Pamela Rozolem - 820279815                                                                          
-Mhayara B Amaral Ramos -  821243240
-Frederico Guilherme da Silva - 821219031
-Lucas Cayres de Santana - 820279348
-Fernanda Nogueira Veiga - 821221260
+- Matheus Costa Silva - 8222248063
+- Pamela Rozolem - 820279815                                                                          
+- Mhayara B Amaral Ramos -  821243240
+- Frederico Guilherme da Silva - 821219031
+- Lucas Cayres de Santana - 820279348
+- Fernanda Nogueira Veiga - 821221260
 
 # Licença
 
