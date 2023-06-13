@@ -43,7 +43,12 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+Matheus Costa Silva - 8222248063
+Pamela Rozolem - 820279815                                                                          
+Mhayara B Amaral Ramos -  821243240
+Frederico Guilherme da Silva - 821219031
+Lucas Cayres de Santana - 820279348
+Fernanda Nogueira Veiga - 821221260
 
 # Licença
 
