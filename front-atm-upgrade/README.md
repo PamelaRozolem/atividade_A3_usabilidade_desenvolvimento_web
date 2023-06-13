@@ -31,6 +31,18 @@ Este projeto aborda uma proposta de redesign de interface gráfica de uma ATM (M
 - [Angular](https://angular.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+## Sobre
+
+## Executando a aplicacao
+
+Para executar usar os seguintes comandos:
+
+```sh
+npm install && npm start
+```
+
+Acesse a URL http://localhost:4200/home
+
 # Contribuição
 
 Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o nosso código de conduta e o processo de envio de solicitações *pull* (*Pull Request*) para nós.
