@@ -30,6 +30,10 @@ Este projeto aborda uma proposta de redesign de interface gráfica de uma ATM (M
 ## Vídeos de apresentação do Front-end
 (https://github.com/PamelaRozolem/atividade_A3_usabilidade_desenvolvimento_web/tree/master/videos-fluxos-front-end)
 
+
+## Vídeos da apresentação do Final
+(https://youtu.be/EHN8BI2wbow)
+
 # Contribuição
 
 Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o nosso código de conduta e o processo de envio de solicitações *pull* (*Pull Request*) para nós.
